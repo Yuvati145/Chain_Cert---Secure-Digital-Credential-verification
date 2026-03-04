@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ChainCert - Blockchain Certificate Verification</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <section class="hero card">
+        <div>
+          <span class="pill">Ganache Ready</span>
+          <h1>ChainCert</h1>
+          <p>
+            Choose a workflow. Issuing is for the owner, verification is public.
+          </p>
+        </div>
+      </section>
+
+      <section class="grid">
+        <div class="card">
+          <h3>Issue Certificate</h3>
+          <p class="muted">Owner-only action. Creates a new on-chain certificate.</p>
+          <div class="row" style="margin-top: 12px">
+            <a class="btn" href="./issue.html">Go to Issue</a>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Verify Certificate</h3>
+          <p class="muted">Public verification using ID + hash.</p>
+          <div class="row" style="margin-top: 12px">
+            <a class="btn" href="./verify.html">Go to Verify</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="footer">Local blockchain demo for certificate verification.</div>
+    </div>
+  </body>
+</html>

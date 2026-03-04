@@ -1,0 +1,19 @@
+{
+  "name": "blockchain_certificate_verification_beginner",
+  "version": "1.0.0",
+  "description": "This project demonstrates a beginner-level blockchain application to detect fake certificates.",
+  "main": "compile.js",
+  "scripts": {
+    "compile": "node compile.js",
+    "deploy": "node deploy.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "solc": "0.8.19",
+    "web3": "^4.16.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
